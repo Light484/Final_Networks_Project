@@ -1,0 +1,66 @@
+<div id="hintBox" class="M+I_Proxy" style="display: none; position: fixed; top: 235px; right: 50px; width: 20%; text-align: justify; background-color: #F7D2E0; z-index: 1000; border: 3px solid pink; border-radius: 15px; padding: 10px; font-family: verdana; font-size: 15px;">
+<span id="hintContent"></span>
+    </div>
+    
+    <button id="hintButton" style="position: fixed; top: 150px; right: 50px; padding: 10px 20px; background-color: pink; border: 2px solid #F7D2E0; border-radius: 10px; font-family: verdana; font-size: 15px; cursor: pointer;">
+        Show Hint
+    </button>
+    
+    <div id="hintNav" style="display: none; position: fixed; top: 200px; right: 50px;">
+        <button id="prevHint" style="padding: 3px 8px; background-color: lightblue; border: 2px solid #ccc; border-radius: 5px; z-index: 1000; background-color: #F7D2E0; border: 2px solid #F7D2E0;">Previous</button>
+        <button id="nextHint" style="padding: 3px 8px; background-color: lightblue; border: 2px solid #ccc; border-radius: 5px; z-index: 1000; background-color: #F7D2E0; border: 2px solid #F7D2E0;">Next</button>
+    </div>
+    
+<script>
+    const hints = [
+        "Hint 1: ,
+
+        "Hint 2: ,
+
+        "Hint 3: ",
+
+        "Hint 4: "
+    ];
+
+    let currentHintIndex = 0;
+    
+        document.getElementById("hintButton").addEventListener("click", function () {
+            const hintBox = document.getElementById("hintBox");
+            const hintNav = document.getElementById("hintNav");
+    
+            // Toggle hint visibility
+            if (hintBox.style.display === "none") {
+                hintBox.style.display = "block"; // Show the hint box
+                hintNav.style.display = "block"; // Show navigation buttons
+                this.innerText = "Hide Hint";   // Change button text
+                updateHint(); // Display the first hint
+            } else {
+                hintBox.style.display = "none"; // Hide the hint box
+                hintNav.style.display = "none"; // Hide navigation buttons
+                this.innerText = "Show Hint";   // Change button text
+            }
+        });
+    
+        document.getElementById("prevHint").addEventListener("click", function () {
+            if (currentHintIndex > 0) {
+                currentHintIndex--; // Move to the previous hint
+            } else {
+                currentHintIndex = hints.length - 1; // Wrap around to the last hint
+            }
+            updateHint();
+        });
+    
+        document.getElementById("nextHint").addEventListener("click", function () {
+            if (currentHintIndex < hints.length - 1) {
+                currentHintIndex++; // Move to the next hint
+            } else {
+                currentHintIndex = 0; // Wrap around to the first hint
+            }
+            updateHint();
+        });
+    
+        function updateHint() {
+            const hintContent = document.getElementById("hintContent");
+            hintContent.innerText = hints[currentHintIndex];
+        }
+</script>

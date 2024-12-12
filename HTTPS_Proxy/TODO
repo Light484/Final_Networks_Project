@@ -1,0 +1,22 @@
+
+./proxy 9099 --mode=tunnel
+./client 127.0.01 9099 connect1.txt
+curl -I -x 127.0.0.1:9099 https://google.com
+
+
+
+cd Desktop/EVERYTHING/Tufts/Classes/CS112/Homework/HTTPS_Proxy_Github
+https://www.nytimes.com/games/connections
+
+
+
+a.et.nytimes.com
+purr.nytimes.com
+als-svc.nytimes.com
+www.googletagmanager.com
+samizdat-graphql.nytimes.com
+o82024.ingest.sentry.io
+push.services.mozilla.com
+ib.adnxs.com
+a.nytimes.com
+a1.nyt.com

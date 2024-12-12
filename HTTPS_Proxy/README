@@ -1,0 +1,116 @@
+/*****************************************************************************
+* Final Project: HTTPS PROXY
+* CS 112
+* README
+* Authors: Isabel Muste, Marti Zentmaier
+******************************************************************************/
+
+This program is an HTTPS proxy that has two modes of operation. It can run in
+a Man In The Middle mode where all the traffic coming through the proxy is
+decrypted when its received and encrypted when it is sent through. When the
+proxy is configured to Tunnel mode, no traffic will be decrypted, so it is
+sent as is to the receipient. 
+
+As part of the MITM configuration, the proxy has LLM functionality that can
+be used when playing the New York Times Connections game. This game displays
+16 words on the screen and asks the user to group the words into groups of
+4 where the words in each group are related in some way. This game can be 
+quite challenging, so to help the user play this game successfully, the proxy
+uses the LLM feature to display hints. There will be one hint for each
+category to help the user solve the game.
+
+
+/*****************************************************************************
+ RUNNING THE PROGRAM
+*****************************************************************************/
+The program includes a "makeFile.sh" file which can be used to compile the 
+program into an executable file which can be used to run the proxy.
+
+The device on which the program is run must have the OpenSSL library installed.
+Besides the OpenSSL library, no additional libraries are required to run the
+program besides the files present in the project directory.
+
+To compile the program with the provided make file, the user must type 
+"sh makeFile.sh". This will create an executable called "proxy". 
+The proxy by default will be run on the 127.0.0.1 IP address but the port 
+must be provided as the second command line argument. Lastly, the third 
+command line argument must specify the mode with which to run. This can be
+specified by entering "--mode=tunnel" or "--mode=MITM".
+
+There is some error logging that can be useful for the user to know what 
+went wrong if the program crashes. It can be useful to redirect this to a file
+if this is not something that the user wants to see. This can be done by 
+entering 2> error.log on the command line.
+
+Example of full command line arguments:
+ -  sh makeFile.sh
+ -  ./proxy 8080 --mode-MITM 2> error.log
+
+
+/*****************************************************************************
+ CERTIFICATE REQUIREMENTS
+*****************************************************************************/
+To be able to interact and use the program on a browser, the certificate
+that is used by the program needs to be trusted. This certificate is in 
+a sub-directory called "certs". This sub-directory contains a file called 
+"ca-cert.pem" which can be added to a browser or device as a trusted 
+certificate allowing the program to decrypt any traffic.
+
+Once the certificate is trusted by the device and / or browser, the program
+IP and port number should be added in the system settings or browser settings
+under the proxy settings. 
+
+Trusting the certificate as well as configuring the system / browser proxy
+settings will allow the program to be ran and the browser to be used.
+
+
+/*****************************************************************************
+ PROGRAM INTERACTION
+*****************************************************************************/
+Once the certificate is trusted, the proxy settings are updated, and the 
+proxy is compiled and running, the user can interact with the proxy by
+using the browser.
+
+Any browser should work for the basic program functionality, but Firefox is 
+the preferred browser as it has clear cache and history control. 
+
+To access any regular websites, no special action is required, so the user can
+simply use the browser to lookup / interact with any websites. 
+
+To use the LLM functionality, the user can navigate to the NYT connections 
+game: https://www.nytimes.com/games/connections. This website will take a 
+couple of seconds to load as the LLM call is made and the page needs to be
+loaded with the added functionality. 
+
+After the connections page is loaded once, the user should navigate to the
+browser settings and clear the cached content for the New York Times website
+to ensure that the browser will trust the proxy the next time this website is
+accessed.
+
+
+/*****************************************************************************
+ EXAMPLE PROGRAM USE
+*****************************************************************************/
+
+1. Install the OpenSSL library
+2. Add the certificate file to the trusted files in the system or browser 
+        settings 
+3. Add the IP (127.0.0.1) and chosen port (eg. 8080) to the browser proxy
+        settings or device network settings
+4. Compile the program using the command: "sh makeFile.sh"
+5. Run the program using the command: "./proxy 8080 --mode=MITM 2> error.log"
+6. Navigate to the browser (Firefox preferred)
+7. Example browser interaction: 
+        https://www.google.com
+        https://www.youtube.com/nationalgeographic
+        https://www.nytimes.com/games/connections
+8. On the connections game page, there will be a button that says "Show Hint"
+        which can be used to display a hint. Then the "Next" and "Previous"
+        buttons can be used to navigate through the hints of which there
+        are 4.
+9. If the user wants to go to the connections game website again, the browser
+        cache should be cleared before reloading the page
+10. To quit the program, enter "CTRL+C" on the command line
+
+
+FLAGS MENTION

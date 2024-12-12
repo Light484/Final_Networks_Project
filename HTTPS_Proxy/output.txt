@@ -1,0 +1,641 @@
+Mode set to tunnel: proxy won't decrypt any requests.
+Sent client message to server
+RETURNVAL: 3663
+NUMBYTES: 3663
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 527
+NUMBYTES: 527
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 1238
+NUMBYTES: 1238
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 1250
+NUMBYTES: 1250
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 614
+NUMBYTES: 614
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 31
+NUMBYTES: 31
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 326
+NUMBYTES: 326
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 3714
+NUMBYTES: 3714
+After sending to client
+RETURNVAL: 2780
+NUMBYTES: 2780
+After sending to client
+RETURNVAL: 3861
+NUMBYTES: 3861
+After sending to client
+RETURNVAL: 2476
+NUMBYTES: 2476
+After sending to client
+RETURNVAL: 3714
+NUMBYTES: 3714
+After sending to client
+RETURNVAL: 2820
+NUMBYTES: 2820
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 3020
+NUMBYTES: 3020
+After sending to client
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 466
+NUMBYTES: 466
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 614
+NUMBYTES: 614
+After sending to client
+Sent client message to server
+RETURNVAL: 162
+NUMBYTES: 162
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 786
+NUMBYTES: 786
+After sending to client
+RETURNVAL: 1314
+NUMBYTES: 1314
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 3368
+NUMBYTES: 3368
+After sending to client
+RETURNVAL: 1238
+NUMBYTES: 1238
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 3332
+NUMBYTES: 3332
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2186
+NUMBYTES: 2186
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2094
+NUMBYTES: 2094
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2094
+NUMBYTES: 2094
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2094
+NUMBYTES: 2094
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2094
+NUMBYTES: 2094
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2094
+NUMBYTES: 2094
+After sending to client
+RETURNVAL: 895
+NUMBYTES: 895
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2486
+NUMBYTES: 2486
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 614
+NUMBYTES: 614
+After sending to client
+Sent client message to server
+RETURNVAL: 31
+NUMBYTES: 31
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 133
+NUMBYTES: 133
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 2476
+NUMBYTES: 2476
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 92
+NUMBYTES: 92
+After sending to client
+RETURNVAL: 2476
+NUMBYTES: 2476
+After sending to client
+RETURNVAL: 3714
+NUMBYTES: 3714
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2568
+NUMBYTES: 2568
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 1850
+NUMBYTES: 1850
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 2008
+NUMBYTES: 2008
+After sending to client
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 253
+NUMBYTES: 253
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 614
+NUMBYTES: 614
+After sending to client
+Sent client message to server
+RETURNVAL: 31
+NUMBYTES: 31
+After sending to client
+RETURNVAL: 507
+NUMBYTES: 507
+After sending to client
+RETURNVAL: 70
+NUMBYTES: 70
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 336
+NUMBYTES: 336
+After sending to client
+Sent client message to server
+Sent client message to server
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2656
+NUMBYTES: 2656
+After sending to client
+Sent client message to server
+Sent client message to server
+Sent client message to server
+RETURNVAL: 3714
+NUMBYTES: 3714
+After sending to client
+RETURNVAL: 266
+NUMBYTES: 266
+After sending to client
+Sent client message to server
+Sent client message to server
+Sent client message to server
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 1330
+NUMBYTES: 1330
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 249
+NUMBYTES: 249
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 2476
+NUMBYTES: 2476
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 1134
+NUMBYTES: 1134
+After sending to client
+Sent client message to server
+RETURNVAL: 3714
+NUMBYTES: 3714
+After sending to client
+RETURNVAL: 1238
+NUMBYTES: 1238
+After sending to client
+RETURNVAL: 2476
+NUMBYTES: 2476
+After sending to client
+RETURNVAL: 614
+NUMBYTES: 614
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 1712
+NUMBYTES: 1712
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 1712
+NUMBYTES: 1712
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 147
+NUMBYTES: 147
+After sending to client
+RETURNVAL: 31
+NUMBYTES: 31
+After sending to client
+RETURNVAL: 2476
+NUMBYTES: 2476
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 856
+NUMBYTES: 856
+After sending to client
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 1712
+NUMBYTES: 1712
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 2094
+NUMBYTES: 2094
+After sending to client
+RETURNVAL: 2476
+NUMBYTES: 2476
+After sending to client
+RETURNVAL: 3714
+NUMBYTES: 3714
+After sending to client
+Sent client message to server
+RETURNVAL: 401
+NUMBYTES: 401
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+Sent client message to server
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+Sent client message to server
+RETURNVAL: 1693
+NUMBYTES: 1693
+After sending to client
+Sent client message to server
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After sending to client
+RETURNVAL: 4096
+NUMBYTES: 4096
+After send

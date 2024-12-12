@@ -1,0 +1,31 @@
+ANSWERS 
+SEVER URL: www.nytimes.com
+{"status":"OK","id":575,"print_date":"2024-12-04","editor":"Wyna Liu","categories":[{"title":"STEER","cards":[{"content":"DIRECT","position":14},{"content":"GUIDE","position":11},{"content":"LEAD","position":2},{"content":"SHEPHERD","position":7}]},{"title":"THINGS WITH NEEDLE/S","cards":[{"content":"COMPASS","position":4},{"content":"PINE TREE","position":1},{"content":"SEWING KIT","position":12},{"content":"TURNTABLE","position":6}]},{"title":"FIGURES IN GREEK MYTH","cards":[{"content":"ATLAS","position":8},{"content":"ECHO","position":10},{"content":"HELEN","position":13},{"content":"PAN","position":0}]},{"title":"STARTING WITH SYNONYMS FOR LAVATORY","cards":[{"content":"CANDLE","position":3},{"content":"LOOFAH","position":5},{"content":"JOHNSON","position":15},{"content":"TOILETRIES","position":9}]}]}
+
+
+WRONG GUESS
+POST /track HTTP/1.1
+Host: a.et.nytimes.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 612
+Origin: https://www.nytimes.com
+Connection: keep-alive
+Referer: https://www.nytimes.com/
+[{"context_id":"0o8GUeSRxWGb4YRzttDRGv1T","pageview_id":"U4lnvKrduQHZ0bIK_ptMWUHG","event_id":"pDmjr78z1r3CokcvFTab4m5i","client_lib":"v1.3.0","sourceApp":"games-crosswords","subject":"page_update","how":"beacon","client_ts":1733352152310,"data":{"adBlockEnabled":false}},{"context_id":"0o8GUeSRxWGb4YRzttDRGv1T","pageview_id":"U4lnvKrduQHZ0bIK_ptMWUHG","event_id":"wbtQdqCjfrGSiWu2tXny4nkp","client_lib":"v1.3.0","sourceApp":"games-crosswords","subject":"impression","how":"beacon","client_ts":1733352153865,"data":{"event":"impression","eventData":{"type":"impression","trigger":"ad"},"ad":{"serviceName":"publisher_ads","timeReceived":2648,"adSlotEventName":"AdResponse","position":"top","advertiserId":29437358,"slotId":"ad-top","pageType":"connections"},"package":{},"item":{},"gtm":"GTM-P528B3-517-Production"}},{"context_id":"0o8GUeSRxWGb4YRzttDRGv1T","pageview_id":"U4lnvKrduQHZ0bIK_ptMWUHG","event_id":"thmn7jPiceuws_jY5KJrRtG5","client_lib":"v1.3.0","sourceApp":"games-crosswords","subject":"impression","how":"beacon","client_ts":1733352153886,"data":{"event":"impression","eventData":{"type":"impression","trigger":"ad"},"ad":{"serviceName":"publisher_ads","isEmpty":false,"slotContentChanged":true,"size":[728,90],"advertiserId":29437358,"campaignId":3638446281,"creativeTemplateId":null,"labelIds":null,"isBackfill":false,"yieldGroupIds":null,"companyIds":null,"vast":null,"timeRendered":2665,"adSlotEventName":"AdRendered","lineItemId":"6839301965","creativeId":"138499349790","position":"top","slotId":"ad-top","pageType":"connections"},"package":{},"item":{},"gtm":"GTM-P528B3-517-Production"}},{"context_id":"0o8GUeSRxWGb4YRzttDRGv1T","pageview_id":"U4lnvKrduQHZ0bIK_ptMWUHG","event_id":"oETSZyTjZdANFDHEF1ufqUuE","client_lib":"v1.3.0","sourceApp":"games-crosswords","subject":"impression","how":"beacon","client_ts":1733352154003,"data":{"event":"impression","eventData":{"type":"impression","trigger":"ad"},"ad":{"serviceName":"publisher_ads","timeReceived":2756,"adSlotEventName":"AdResponse","position":"bottom","advertiserId":29437358,"slotId":"ad-bottom","pageType":"connections"},"package":{},"item":{},"gtm":"GTM-P528B3-517-Production"}},{"context_id":"0o8GUeSRxWGb4YRzttDRGv1T","pageview_id":"U4lnvKrduQHZ0bIK_ptMWUHG","event_id":"NEWosg9qBFoXrVepaiEctd7v","client_lib":"v1.3.0","sourceApp":"games-crosswords","subject":"impression","how":"beacon","client_ts":1733352154017,"data":{"event":"impression","eventData":{"type":"impression","trigger":"ad"},"ad":{"serviceName":"publisher_ads","isEmpty":false,"slotContentChanged":true,"size":[970,250],"advertiserId":29437358,"campaignId":3638446281,"creativeTemplateId":null,"labelIds":null,"isBackfill":false,"yieldGroupIds":null,"companyIds":null,"vast":null,"timeRendered":2770,"adSlotEventName":"AdRendered","lineItemId":"6839301965","creativeId":"138499350165","position":"bottom","slotId":"ad-bottom","pageType":"connections"},"package":{},"item":{},"gtm":"GTM-P528B3-517-Production"}},{"context_id":"0o8GUeSRxWGb4YRzttDRGv1T","pageview_id":"U4lnvKrduQHZ0bIK_ptMWUHG","event_id":"ssje2zr2IG6UnEl0mPqVS645","client_lib":"v1.3.0","sourceApp":"games-crosswords","subject":"interaction","how":"beacon","client_ts":1733352155228,"data":{"gtm":"GTM-P528B3-517-Production","eventData":{"pagetype":"game","trigger":"module","type":"click"},"module":{"type":"click","element":{"name":"connections","label":"solve-attempt"},"context":541,"label":["r: fail","w: LEAD,LOOFAH,ATLAS,ECHO","d: null","m: 1"],"medium":null,"source":null,"region":null,"name":{"date":"2024-12-04","t":"today"}},"package":{},"item":{}}}]
+
+
+RIGHT GUESS
+POST /track HTTP/1.1
+Host: a.et.nytimes.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 3581
+Origin: https://www.nytimes.com
+Connection: keep-alive
+Referer: https://www.nytimes.com/
+[{"context_id":"0o8GUeSRxWGb4YRzttDRGv1T","pageview_id":"U4lnvKrduQHZ0bIK_ptMWUHG","event_id":"cp9lctIv5SDjH-JhBcMxwUA2","client_lib":"v1.3.0","sourceApp":"games-crosswords","subject":"interaction","how":"beacon","client_ts":1733352166588,"data":{"gtm":"GTM-P528B3-517-Production","eventData":{"pagetype":"game","trigger":"module","type":"click"},"module":{"type":"click","element":{"name":"connections","label":"solve-attempt"},"context":541,"label":["r: pass","w: ECHO,ATLAS,HELEN,PAN","d: 3","m: 1"],"medium":null,"source":null,"region":null,"name":{"date":"2024-12-04","t":"today"}},"package":{},"item":{}}}]

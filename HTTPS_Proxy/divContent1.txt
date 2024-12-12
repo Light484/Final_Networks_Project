@@ -1,0 +1,20 @@
+<div class="M+I_Proxy" id="hintBox" style="display: none; position: fixed; top: 200px; right: 50px; width: 20%; text-align: justify; background-color: #F7D2E0; z-index: 1000; border: 3px solid pink; border-radius: 15px; padding: 10px; font-family: verdana; font-size: 15px;">
+    HINT: </div>
+
+<button id="hintButton" style="position: fixed; top: 150px; right: 50px; padding: 10px 20px; background-color: pink; border: 2px solid #F7D2E0; border-radius: 10px; font-family: verdana; font-size: 15px; cursor: pointer;">
+    Show Hint
+</button>
+
+<script>
+    document.getElementById("hintButton").addEventListener("click", function() {
+        const hintBox = document.getElementById("hintBox");
+        // Toggle visibility
+        if (hintBox.style.display === "none") {
+            hintBox.style.display = "block"; // Show the hint
+            this.innerText = "Hide Hint";   // Change button text
+        } else {
+            hintBox.style.display = "none"; // Hide the hint
+            this.innerText = "Show Hint";   // Change button text
+        }
+    });
+</script>
